@@ -1,19 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+
+// https://image.ibb.co/euc3hb/edge.png
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to pete is gay</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <div>
+         <div className='side-bar'> chloe u r a idiot</div>
+         <div className='main-screen'></div>
+     </div>
     );
   }
 }
