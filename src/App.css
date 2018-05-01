@@ -1,10 +1,169 @@
-
-.side-bar {
-  width: '20%';
-  background-image: url('https://image.ibb.co/euc3hb/edge.png');
-  position: absolute;
+.body{
+  display: flex;
+  margin: 0px;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
-.main-screen {
-	width: '80%';
+
+.left{
+  display: inline-flex;
+  width: 50%;
+  height: 100vh;
 }
+
+.chloe{
+  font-size: 25vh;
+  font-family: 'Raleway', sans-serif;
+  margin-left: -60px;
+  margin-top: 15px;
+  cursor: default;
+}
+
+.steph{
+  font-size: 25vh;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 190px;
+  cursor: default;
+}
+
+.design{
+  font-size: 80px;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  color: #7d7b7b;
+  margin-top: 30px;
+  margin-left: 10px;
+  cursor: default;
+
+}
+
+.pink{
+  background-color: #f5c8ee;
+  height: 80vh;
+  width: 80vh;
+  margin-top: 100px;
+  margin-left: 90px;
+}
+
+
+
+.right {
+  display: inline-block;
+  width: 50%;
+  height: 100vh;
+}
+
+.work{
+  color: black;
+  font-size: 60px;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 60px;
+  cursor: default;
+}
+
+.who{
+  color: #7d7b7b;
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+.pro1{  
+  color: #7d7b7b;
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+.pro2{
+  color: #7d7b7b;
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+.pro3{
+  color: #7d7b7b;
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+.pro4{
+  color: #7d7b7b;
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+.bottom{
+  display: inline-flex;
+  margin-top: 10px;
+}
+
+.about{
+  color: #2e2d2e;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 80px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.contact{
+  color: #2e2d2e;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 400px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.who:hover{
+  background-color: #f5c8ee;
+}
+
+.pro1:hover{
+  background-color: #f5c8ee;
+}
+
+.pro2:hover{
+  background-color: #f5c8ee;
+}
+
+.pro3:hover{
+  background-color: #f5c8ee;
+}
+
+.pro4:hover{
+  background-color: #f5c8ee;
+}
+
+@media only screen and (max-width: 800px) {
+  .chloe {
+    font-size: 10vh;
+  }
+  
+
+  .steph {
+    font-size: 10vh
+  }
+  
+  .design {
+    font-size: 8vh
+  }
+}
+
